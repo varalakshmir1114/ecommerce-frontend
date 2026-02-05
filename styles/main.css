@@ -71,3 +71,26 @@ body {
     font-size: 24px;
     cursor: pointer;
 }
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+
+    /* Hide desktop navigation */
+    .nav {
+        display: none;
+    }
+
+    /* Show hamburger menu */
+    .hamburger {
+        display: block;
+    }
+
+    /* Adjust header layout */
+    .header {
+        padding: 10px 20px;
+    }
+
+    /* Adjust search bar size */
+    .search-bar input {
+        width: 140px;
+    }
+}
